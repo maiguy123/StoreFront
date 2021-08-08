@@ -1,0 +1,179 @@
+body {
+    background-image: url(img/Pictures/pitchbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 2500px 2500px;
+    color: white;
+}
+
+h1{
+    color: tan;
+    font-size: 3.5em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2 {
+    color: gray;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.35em 0;
+}
+
+p{
+    font-size: 1.20em;
+    line-height: 1.3em;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding:0 0 0 0.2em
+}
+
+ol li {
+    margin: 0;
+    padding: 0 0 0.2em
+}
+
+a, a :visited{
+    color:wheat;
+}
+
+hr{
+    padding 0;
+    margin: 1.5em 1.5em 0.75em 0.5em
+}
+
+.contentWrapper {
+    margin: 0  auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: url(img/Pictures/headerBackground.jpg);
+    background-repeat:no-repeat ;
+    background-size: 1550px 300px;
+}
+
+nav {
+    color:white;
+    font-size: 1.2;
+    letter-spacing: 0.06em;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a, nav li a:visited {
+    padding: 0.3em 0.6em;
+}
+
+nav#utilityMenu {
+    float: right;
+margin: -1.5em 0 0 0;
+padding: 0.35em;
+height: 1.3em;
+}
+
+nav#utilityMenu li{
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+
+}
+
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+    color: wheat;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin:-0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+nav#utilityMenu li a, nav#utilityMenu li a :visited {padding: 0;}
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1em;
+}
+
+nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
+    content: "|";
+    color:yellow
+}
+
+#sidebar {
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: transparent;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border: solid black;
+}
+
+ #main {
+    background-color: black;
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+.panel {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color:black;
+    border: solid 1px;
+    border-radius: 0.6em;
+}
+
+footer {
+    
+    height: 25px;
+    font-size: 1.2em;
+    color: wheat;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visted {
+    color: wheat;
+}
+
+footer a:hover {
+    color: wheat;
+}
